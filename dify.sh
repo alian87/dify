@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Fazendo as perguntas e armazenando as respostas em variáveis
+clear
 read -p "Me informe sua url de acesso web sem http:// ou https://? " web_url
 read -p "Me informe a url de acesso a api sem http:// ou https://? " api_url
 read -p "Me informe a senha de admin para o dify? " senha_dify
